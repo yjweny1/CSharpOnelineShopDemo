@@ -11,66 +11,43 @@ namespace MVCManukauTech.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly NorthwindContext _context;
+        private readonly F191_tron01_XSpyContext _context;
 
-        public ProductsController(NorthwindContext context)
+        public ProductsController(F191_tron01_XSpyContext context)
         {
             _context = context;
         }
 
-        //GET /Products
-        public IActionResult Index()
+        // GET: Products
+        public async Task<IActionResult> Index()
         {
-            string sql = "SELECT * FROM Products WHERE Discontinued = 0";
-            List<Products> products = _context.Products.FromSql(sql).ToList();
-
-            return View(products);
+            var f191_tron01_XSpyContext = _context.Product.Include(p => p.Category);
+            return View(await f191_tron01_XSpyContext.ToListAsync());
         }
-
-        // GET: /IndexAll/Products
-        public IActionResult IndexAll()
-        {
-
-            List<Products> products = _context.Products.FromSql("SELECT * FROM Products").ToList();
-
-            return View("Index", products);
-        }
-
-        public IActionResult IndexCondiments()
-        {
-            string sql = "SELECT * FROM Products WHERE Discontinued = 0 AND CategoryId = 2";
-            List<Products> products = _context.Products.FromSql(sql).ToList();
-
-            return View("Index", products);
-        }
-
-
 
         // GET: Products/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var products = await _context.Products
+            var product = await _context.Product
                 .Include(p => p.Category)
-                .Include(p => p.Supplier)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
-            if (products == null)
+            if (product == null)
             {
                 return NotFound();
             }
 
-            return View(products);
+            return View(product);
         }
 
         // GET: Products/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName");
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName");
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId");
             return View();
         }
 
@@ -79,35 +56,33 @@ namespace MVCManukauTech.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,ProductName,SupplierId,CategoryId,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] Products products)
+        public async Task<IActionResult> Create([Bind("ProductId,CategoryId,Name,ImageFileName,UnitCost,Description,IsDownload,DownloadFileName")] Product product)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(products);
+                _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", products.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName", products.SupplierId);
-            return View(products);
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId", product.CategoryId);
+            return View(product);
         }
 
         // GET: Products/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var products = await _context.Products.FindAsync(id);
-            if (products == null)
+            var product = await _context.Product.FindAsync(id);
+            if (product == null)
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", products.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName", products.SupplierId);
-            return View(products);
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId", product.CategoryId);
+            return View(product);
         }
 
         // POST: Products/Edit/5
@@ -115,9 +90,9 @@ namespace MVCManukauTech.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,SupplierId,CategoryId,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] Products products)
+        public async Task<IActionResult> Edit(string id, [Bind("ProductId,CategoryId,Name,ImageFileName,UnitCost,Description,IsDownload,DownloadFileName")] Product product)
         {
-            if (id != products.ProductId)
+            if (id != product.ProductId)
             {
                 return NotFound();
             }
@@ -126,12 +101,12 @@ namespace MVCManukauTech.Controllers
             {
                 try
                 {
-                    _context.Update(products);
+                    _context.Update(product);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductsExists(products.ProductId))
+                    if (!ProductExists(product.ProductId))
                     {
                         return NotFound();
                     }
@@ -142,45 +117,43 @@ namespace MVCManukauTech.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", products.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName", products.SupplierId);
-            return View(products);
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId", product.CategoryId);
+            return View(product);
         }
 
         // GET: Products/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var products = await _context.Products
+            var product = await _context.Product
                 .Include(p => p.Category)
-                .Include(p => p.Supplier)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
-            if (products == null)
+            if (product == null)
             {
                 return NotFound();
             }
 
-            return View(products);
+            return View(product);
         }
 
         // POST: Products/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var products = await _context.Products.FindAsync(id);
-            _context.Products.Remove(products);
+            var product = await _context.Product.FindAsync(id);
+            _context.Product.Remove(product);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductsExists(int id)
+        private bool ProductExists(string id)
         {
-            return _context.Products.Any(e => e.ProductId == id);
+            return _context.Product.Any(e => e.ProductId == id);
         }
     }
 }

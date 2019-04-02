@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-MVCManukauTech-F06EFD20-52C0-4BDB-AFE8-F21033193843")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-MVCManukauTech-7C6DA101-2F94-4B18-8088-B23CFB0D89B6")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCManukauTech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

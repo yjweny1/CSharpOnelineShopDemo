@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCManukauTech", "MVCManukauTech\MVCManukauTech.csproj", "{56CCAA81-F623-4919-8705-12FE0B157B52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCManukauTech", "MVCManukauTech\MVCManukauTech.csproj", "{BF303AA5-C92D-4581-AEA2-2A85AD8D75AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{56CCAA81-F623-4919-8705-12FE0B157B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56CCAA81-F623-4919-8705-12FE0B157B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56CCAA81-F623-4919-8705-12FE0B157B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56CCAA81-F623-4919-8705-12FE0B157B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF303AA5-C92D-4581-AEA2-2A85AD8D75AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF303AA5-C92D-4581-AEA2-2A85AD8D75AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF303AA5-C92D-4581-AEA2-2A85AD8D75AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF303AA5-C92D-4581-AEA2-2A85AD8D75AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4FC8E9CA-FB03-47D2-BEA4-E3E490EA75F2}
+		SolutionGuid = {491C2BB9-3F31-4F94-A7F8-B8B562B3EA60}
 	EndGlobalSection
 EndGlobal

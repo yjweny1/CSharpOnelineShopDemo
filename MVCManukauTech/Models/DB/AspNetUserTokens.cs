@@ -9,5 +9,7 @@ namespace MVCManukauTech.Models.DB
         public string LoginProvider { get; set; }
         public string Name { get; set; }
         public string Value { get; set; }
+
+        public virtual AspNetUsers User { get; set; }
     }
 }

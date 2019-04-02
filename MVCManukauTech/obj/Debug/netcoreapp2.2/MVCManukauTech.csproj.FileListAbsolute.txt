@@ -1,0 +1,188 @@
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.deps.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.runtimeconfig.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.runtimeconfig.dev.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.Views.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.Views.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csprojAssemblyReference.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csproj.CoreCompileInputs.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorAssemblyInfo.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorAssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.AssemblyInfoInputs.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.AssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.TagHelpers.input.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.TagHelpers.output.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorCoreGenerate.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorTargetAssemblyInfo.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorTargetAssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.Views.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csproj.CopyComplete
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Create.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Delete.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Details.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Edit.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Index.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.deps.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.runtimeconfig.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.runtimeconfig.dev.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.Views.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.Views.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csprojAssemblyReference.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csproj.CoreCompileInputs.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorAssemblyInfo.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorAssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.AssemblyInfoInputs.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.AssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.TagHelpers.input.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.TagHelpers.output.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorCoreGenerate.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Create.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Delete.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Details.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Edit.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Index.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorTargetAssemblyInfo.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorTargetAssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.Views.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week01_Responses\Northwind_Test01\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csproj.CopyComplete
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.deps.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.runtimeconfig.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.runtimeconfig.dev.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.Views.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.Views.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csprojAssemblyReference.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csproj.CoreCompileInputs.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorAssemblyInfo.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorAssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.AssemblyInfoInputs.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.AssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.TagHelpers.input.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.TagHelpers.output.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorCoreGenerate.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Create.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Delete.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Details.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Edit.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Index.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorTargetAssemblyInfo.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorTargetAssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.Views.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csproj.CopyComplete
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_with_Products\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\QueryActors\CustomersAndSuppliersByCity.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.deps.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.runtimeconfig.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.runtimeconfig.dev.json
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.Views.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.Views.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csprojAssemblyReference.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csproj.CoreCompileInputs.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorAssemblyInfo.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorAssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.AssemblyInfoInputs.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.AssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.TagHelpers.input.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.TagHelpers.output.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorCoreGenerate.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Create.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Delete.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Details.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Edit.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Index.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorTargetAssemblyInfo.cache
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorTargetAssemblyInfo.cs
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.Views.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.dll
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.pdb
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csproj.CopyComplete
+D:\Working_191Q\502.632_Full-Stack_Activities\Week03_Working\Northwind_Test01_Query_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\QueryActors\CustomersAndSuppliersByCity.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.deps.json
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.runtimeconfig.json
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.runtimeconfig.dev.json
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.dll
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.pdb
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.Views.dll
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\bin\Debug\netcoreapp2.2\MVCManukauTech.Views.pdb
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csprojAssemblyReference.cache
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csproj.CoreCompileInputs.cache
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorAssemblyInfo.cache
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorAssemblyInfo.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.AssemblyInfoInputs.cache
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.AssemblyInfo.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.TagHelpers.input.cache
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.TagHelpers.output.cache
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorCoreGenerate.cache
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Create.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Delete.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Details.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Edit.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Products\Index.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\QueryActors\CustomersAndSuppliersByCity.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorTargetAssemblyInfo.cache
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.RazorTargetAssemblyInfo.cs
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.Views.pdb
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.dll
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.pdb
+D:\Working_191Q\Common Resources Publish Canvas etc\Northwind_Working_2019_Core2_2_For_Advanced_Exercises\MVCManukauTech\obj\Debug\netcoreapp2.2\MVCManukauTech.csproj.CopyComplete

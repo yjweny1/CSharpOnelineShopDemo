@@ -1,0 +1,7 @@
+.vs/*
+MVCManukauTech/obj/Debug/*
+MVCManukauTech/obj/project.assets.json
+MVCManukauTech/obj/MVCManukauTech.csproj.nuget.g.props
+MVCManukauTech/obj/MVCManukauTech.csproj.nuget.g.targets
+MVCManukauTech/obj/MVCManukauTech.csproj.nuget.cache
+MVCManukauTech/bin/Debug/*

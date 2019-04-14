@@ -33,3 +33,28 @@
         display: none;
     }
 }
+
+#cart {
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    background-color: grey;
+    line-height: 53px;
+    padding-left:2px;
+    z-index: 99;
+}
+
+.cart-icon {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.cart-count {
+    margin-left:-15px;
+}
+
+

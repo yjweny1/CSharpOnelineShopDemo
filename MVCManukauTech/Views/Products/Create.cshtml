@@ -6,6 +6,14 @@
 
 <h1>Create</h1>
 
+<script src="~/js/tinymce/tinymce.min.js"></script>
+<script>
+    tinymce.init({
+        selector:"textarea#Description",
+        plugins:"link lists table image"
+    });
+</script>
+
 <h4>Product</h4>
 <hr />
 <div class="row">
@@ -19,7 +27,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="CategoryId" class="control-label"></label>
-                <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
@@ -38,7 +46,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
+                <textarea name="Description" id="Description" class="form-control"></textarea>
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group form-check">

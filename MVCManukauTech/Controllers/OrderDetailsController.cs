@@ -392,6 +392,168 @@ namespace MVCManukauTech.Controllers
             return View();
         }
 
+        public string AjaxAddToCart()
+        {
+            string SQLGetOrder = "";
+            string SQLStartOrder = "";
+            string SQLCart = "";
+            string SQLBuy = "";
+            string SQLUnitCostLookup = "";
+            int rowsChanged = 0;
+            string json = "";
+            IDictionary<string, string> result = new Dictionary<string, string>();
+            result["error"] = "0";
+
+
+            string ProductId = Request.Query["ProductId"];
+            // Security checking
+            if (ProductId != null && (ProductId.Length > 20 || ProductId.IndexOf("'") > -1 || ProductId.IndexOf("#") > -1))
+            {
+                result["error"] = "1";
+                result["error_msg"] = "Product ID is wrong";
+                json = JsonConvert.SerializeObject(result);
+                return json;
+            }
+
+            SQLGetOrder = "SELECT * FROM [Order] WHERE SessionId = @p0 AND OrderStatusId <= 1;";
+
+            var orders = _context.Order.FromSql(SQLGetOrder, HttpContext.Session.Id).ToList();
+            for (int iForLoop = 0; iForLoop <= 1; iForLoop++)
+            {
+                //Do we have an order?
+                if (orders.Count == 1)
+                {
+                    //we have an order, we can continue to the next step
+                    break;
+                }
+                else if (iForLoop == 1)
+                {
+                    //failed on the second attempt
+                    result["error"] = "1";
+                    result["error_msg"] = "ERROR with database table 'Order'.  This session fails to write a new order.";
+                }
+                else if (orders.Count > 1)
+                {
+                    //This would be a major error. In theory impossible but we need to be ready for any outcome
+                    result["error"] = "1";
+                    result["error_msg"] = "ERROR with database table 'Order'.  This session is running more than one shopping cart.";
+                }
+                else
+                {
+                    //else we get an order started
+                    //150807 JPC Security improvement implementation of @p0
+                    SQLStartOrder = "INSERT INTO [Order](SessionId, OrderStatusId) VALUES(@p0, 0);";
+                    rowsChanged = _context.Database.ExecuteSqlCommand(SQLStartOrder, HttpContext.Session.Id);
+                    // a good result would be one row changed
+                    if (rowsChanged != 1)
+                    {
+                        //Error handling code to go in here.  Poss return a view with error messages.
+                        //Code from our old webforms version is -- 
+                        result["error"] = "1";
+                        result["error_msg"] = "ERROR with database table 'Order'.";
+                    }
+                    //ready to try reading that order again
+                    //150807 JPC Security improvement implementation of @p0, parameter Session.SessionID
+                    orders = _context.Order.FromSql(SQLGetOrder, HttpContext.Session.Id).ToList();
+                    //go round and test orders again
+                }
+                if (result["error"] == "1")
+                {
+                    json = JsonConvert.SerializeObject(result);
+                    return json;
+                }
+            }
+
+            //What is the OrderId
+            int orderId = orders[0].OrderId;
+
+            SQLCart = "SELECT OrderDetail.OrderId AS OrderId, OrderDetail.LineNumber As LineNumber, OrderDetail.ProductId As ProductId, " +
+                "Product.Name As ProductName, Product.ImageFileName As ImageFileName, " +
+                "OrderDetail.Quantity As Quantity, OrderDetail.UnitCost As UnitCost " +
+                "FROM OrderDetail INNER JOIN Product ON Product.ProductId = OrderDetail.ProductId " +
+                "WHERE OrderDetail.OrderId = @p0 ORDER BY OrderDetail.LineNumber;";
+            var cart = _context.OrderDetailsQueryForCart.FromSql(SQLCart, orderId).ToList();
+
+            //140903 JPC
+            //What to do about a product for the case where the user clicked add to cart ..
+            //IF the product is already in the cart THEN raise the quantity by one ELSE add it in
+
+            int lineNumber = 0;
+            int? quantity = 0;
+            //140903 JPC cover case of user is only looking at the cart without adding any changes
+            if (ProductId == null)
+            {
+                //use lineNumber = -1 as a flag to skip the data writing in the following "if" block
+                lineNumber = -1;
+            }
+            else
+            {
+                foreach (var item in cart)
+                {
+                    if (item.ProductId == ProductId)
+                    {
+                        lineNumber = item.LineNumber;
+                        quantity = item.Quantity;
+                        break;
+                    }
+                }
+            } //end if
+
+            rowsChanged = 0;
+            if (lineNumber > 0)
+            {
+                quantity += 1;
+                //150807 JPC Security improvement implementation of @p0, @p1, @p2 - (was {0}, {1}, {2})
+                SQLBuy = "UPDATE OrderDetail SET Quantity = @p0 WHERE OrderId = @p1 AND LineNumber = @p2 ";
+                rowsChanged = _context.Database.ExecuteSqlCommand(SQLBuy, quantity, orderId, lineNumber);
+            }
+            else if (lineNumber == 0)
+            {
+                SQLUnitCostLookup = "SELECT * FROM Product WHERE ProductId = @p0";
+                var products = _context.Product.FromSql(SQLUnitCostLookup, ProductId).ToList();
+                decimal unitCost = Convert.ToDecimal(products[0].UnitCost);
+
+                lineNumber = cart.Count + 1;
+                //150807 JPC Security improvement implementation of @p0 etc
+                SQLBuy = "INSERT INTO OrderDetail VALUES(@p0, @p1, @p2, @p3, @p4)";
+                rowsChanged = _context.Database.ExecuteSqlCommand(SQLBuy, orderId, lineNumber, ProductId, 1, unitCost);
+            }
+
+            //If User has selected a product to add then Query is UPDATE or INSERT but they both run like this
+            if (SQLBuy != "")
+            {
+                if (rowsChanged != 1)
+                {
+                    //Error handling code to go in here.  Poss return a view with error messages.
+                    //Code from our old webforms version is -- 
+                    result["error"] = "1";
+                    result["error_msg"] = "ERROR with database table 'Order'.";
+                    json = JsonConvert.SerializeObject(result);
+                    return json;
+                }
+            }
+
+            //Give that Session object some work to do to wake it up and get it functional
+            HttpContext.Session.SetInt32("OrderId", orderId);
+            //20180312 JPC use ViewBag to get the orderId to the cart for display
+            ViewBag.OrderId = orderId;
+
+            string SQLNum = "SELECT * FROM OrderDetail WHERE OrderId = @p0";
+            var Num = _context.OrderDetail.FromSql(SQLNum, orderId).ToList();
+            int totalNum = 0;
+            foreach (var item in Num)
+            {
+                if (item.Quantity != null)
+                {
+                    totalNum += item.Quantity.Value;
+                } 
+            }
+            result["totalNum"] = totalNum.ToString();
+            json = JsonConvert.SerializeObject(result);
+            return json;
+
+        }
+
         //Need a C# equivalent of the IsNumeric method in Visual Basic
         //https://social.msdn.microsoft.com/Forums/windows/en-US/9b775314-098c-45f7-826b-69c904259421/is-there-a-c-equivalent-of-the-isnumeric-function-of-vb?forum=winforms
         private bool IsNumeric(string value)

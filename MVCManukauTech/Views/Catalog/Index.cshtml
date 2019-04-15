@@ -13,52 +13,57 @@
 
 <h2>@ViewBag.Title</h2>
 
+<div class="row">
 
-<table class="table">
-    <tr>
-        <th>
-            Name
-        </th>
-        <th>
-            Image
-        </th>
-        <th>
-            Unit Cost
-        </th>
-        <th>
-            Description
-        </th>
-        <th>
-            Category
-        </th>
-        <th></th>
-    </tr>
+    <div class="col-lg-12" ng-app="catalogIndexModule" ng-controller="catalogIndexCtrl">
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @item.Name
-            </td>
-            <td>
-                <img src="~/Images/Products/@item.ImageFileName" style="width:100px" />
-            </td>
-            <td style="text-align: right">
-                @item.UnitCost
-            </td>
-            <td>
-                @item.Description
-            </td>
-            <td>
-                @item.CategoryName
-            </td>
-            <td>
-                <a href="~/OrderDetails/ShoppingCart?ProductId=@item.ProductId"><button>Add&nbsp;to&nbsp;Cart</button></a>
-            </td>
-            <td>
-                <a href="~/Catalog/Details?ProductId=@item.ProductId"><button>Details</button></a>
-            </td>
-        </tr>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4" dir-paginate="item in catalogIndex | itemsPerPage:9">
+                <div class="card h-100">
+                    <a href="~/Catalog/Details?ProductId={{ item.ProductId }}"><img class="card-img-top pic_img_{{ item.ProductId }}" src="/Images/Products/{{item.ImageFileName}}" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="~/Catalog/Details?ProductId={{ item.ProductId }}">{{ item.Name }}</a>
+                        </h4>
+                        <p class="card-text" style="display:none;">{{ item.Description }}</p>
+                    </div>
+                    <div class="card-footer">
+                        <h5 class="float-left">${{ item.UnitCost }}</h5>
+                        <button type="button" class="btn btn-dark float-right add-to-cart" ng-click="addCart(item.ProductId)" pid="{{ item.ProductId }}">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <dir-pagination-controls max-size="10" direction-links="true" boundary-links="true" template-url="/js/dirPagination/dirPagination.tpl.html"></dir-pagination-controls>
+    </div>
+    
+
+</div>
+<!-- /.row -->
+<script src="~/js/dirPagination/dirPagination.js"></script>
+<script>
+    var searchString = '@ViewData["searchString"]';
+    var categoryName = '@ViewData["categoryName"]';
+    var _$http;
+    var _$scope;
+    var requestUrl = "/Catalog/AjaxIndex";
+    var app = angular.module('catalogIndexModule', ['angularUtils.directives.dirPagination']);
+    app.controller('catalogIndexCtrl', xConstructor);
+
+    function xConstructor($scope, $http) {
+        _$http = $http;
+        _$scope = $scope;
+        if (searchString != '') {
+            requestUrl = requestUrl + "?searchString=" + searchString;
+        }
+        $http.get(requestUrl).then(xReceive);
     }
 
-</table>
+    function xReceive(catalogIndexObject) {
+        _$scope.catalogIndex = catalogIndexObject.data;
+        _$scope.addCart = function (productId) { addToCart(productId)};
+    }
+
+
+</script>

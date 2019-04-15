@@ -1,10 +1,4 @@
-﻿//20180312 JPC migration notes from MVC5 to Core 2.0
-//Straightforward - only a small challenge with returning statuscodes.
-//eg in MVC5 - return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-//Search gives this: https://stackoverflow.com/questions/37690114/how-to-return-a-specific-status-code-and-no-contents-from-controller
-//Much nicer code as - return BadRequest(); // Http status code 400
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MVCManukauTech.Models.DB;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 
 namespace MVCManukauTech.Controllers
 {
@@ -25,38 +20,57 @@ namespace MVCManukauTech.Controllers
             _context = context;
         }
 
-        // GET: Catalog?CategoryName=Travel
-        public IActionResult Index()
+        public IActionResult Index(string categoryName, string searchString)
         {
+            if (categoryName != null)
+            {
+                ViewData["categoryName"] = categoryName;
+            }
+            else if (searchString != null)
+            {
+                ViewData["searchString"] = searchString;
+            }
+            return View();
+        }
+
+        // GET: Catalog?CategoryName=Travel
+        public string AjaxIndex()
+        {
+            string json = "";
+            string search = "";
             //140903 JPC add CategoryName to SELECT list of fields
             string SQL = "SELECT ProductId, Product.CategoryId AS CategoryId, Name, ImageFileName, UnitCost"
                 + ", SUBSTRING(Description, 1, 100) + '...' AS Description, CategoryName "
                 + "FROM Product INNER JOIN Category ON Product.CategoryId = Category.CategoryId ";
             string categoryName = Request.Query["CategoryName"];
+            string searchString = Request.Query["searchString"];
 
             if (categoryName != null)
             {
-                //140903 JPC security check - if ProductId is dodgy then return bad request and log the fact 
-                //  of a possible hacker attack.  Excessive length or containing possible control characters
-                //  are cause for concern!  TODO move this into a separate reusable code method with more sophistication.
                 if (categoryName.Length > 20 || categoryName.IndexOf("'") > -1 || categoryName.IndexOf("#") > -1)
                 {
-                    //TODO Code to log this event and send alert email to admin
-                    return BadRequest(); // Http status code 400
+                    return json;
                 }
 
-                //140903 JPC  Passed the above test so extend SQL
-                //150807 JPC Security improvement @p0
                 SQL += " WHERE CategoryName = @p0";
-                //SQL += " WHERE CategoryName = '{0}'";
-                //SQL = String.Format(SQL, CategoryName);
-                //Send extra info to the view that this is the selected CategoryName
+                search = categoryName;
                 ViewBag.CategoryName = categoryName;
+            }
+            else if (searchString != null)
+            {
+                if (searchString.Length > 50 || searchString.IndexOf("'") > -1 || searchString.IndexOf("#") > -1)
+                {
+                    return json;
+                }
+                search = "%" + searchString + "%";
+                SQL += " WHERE Name LIKE @p0";
             }
 
             //150807 JPC Security improvement implementation of @p0
-            var products = _context.CatalogViewModel.FromSql(SQL, categoryName);
-            return View(products.ToList());
+            var products = _context.CatalogViewModel.FromSql(SQL, search);
+
+            json = JsonConvert.SerializeObject(products);
+            return json;
         }
 
         // GET: Catalog/Details?ProductId=1MORE4ME

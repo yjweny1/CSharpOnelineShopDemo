@@ -57,6 +57,9 @@
         if (searchString != '') {
             requestUrl = requestUrl + "?searchString=" + searchString;
         }
+        else if (categoryName != '') {
+            requestUrl = requestUrl + "?categoryName=" + categoryName;
+        }
         $http.get(requestUrl).then(xReceive);
     }
 

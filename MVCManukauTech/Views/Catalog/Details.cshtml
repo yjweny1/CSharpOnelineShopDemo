@@ -9,38 +9,27 @@
 <div>
     <h4>Products</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            Name
-        </dt>
-        <dd>
-            @Model.Name
-        </dd>
-        <dt>
-            Image
-        </dt>
-        <dd>
-            <img src="~/images/products/@Model.ImageFileName" />
-        </dd>
-        <dt>
-            Unit Cost
-        </dt>
-        <dd>
-            @Model.UnitCost
-        </dd>
-        <dt>
-            Description
-        </dt>
-        <dd>
-            @Model.Description)
-        </dd>
-        <dt>
-            Category
-        </dt>
-        <dd>
-            @Model.CategoryName
-        </dd>
-    </dl>
+    <div class="col-lg-12">
+
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-12">
+                <div class="card h-100">
+                    <a><img class="card-img-top pic_img_@Model.ProductId" src="/Images/Products/@Model.ImageFileName" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="~/Catalog/Details?ProductId=@Model.ProductId">@Model.Name</a>
+                        </h4>
+                        <p class="card-text">@Html.Raw(Model.Description)</p>
+                    </div>
+                    <div class="card-footer">
+                        <h5 class="float-left">$@Model.UnitCost</h5>
+                        <button type="button" class="btn btn-dark float-right add-to-cart" onclick="addCart(@Model.ProductId)" pid="@Model.ProductId">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
 </div>
 <div>
     <a asp-action="Index">Back to List</a>

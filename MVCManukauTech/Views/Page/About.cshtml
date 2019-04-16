@@ -1,0 +1,19 @@
+﻿@model MVCManukauTech.Models.DB.Page
+
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>About</h1>
+@if (User.IsInRole("Admin"))
+{
+<button onclick="location.href='Edit?Id=1'">Edit</button>
+    
+}
+
+<div>
+    <hr />
+    <dl class="row">
+        @Html.Raw(Model.Detail)
+    </dl>
+</div>

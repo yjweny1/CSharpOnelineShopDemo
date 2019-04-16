@@ -23,6 +23,7 @@ namespace MVCManukauTech.Controllers
         // GET: Products
         public async Task<IActionResult> Index()
         {
+            ViewBag.isButton = true;
             var f191_tron01_XSpyContext = _context.Product.Include(p => p.Category);
             return View(await f191_tron01_XSpyContext.ToListAsync());
         }
@@ -30,6 +31,7 @@ namespace MVCManukauTech.Controllers
         // GET: Products/Details/5
         public async Task<IActionResult> Details(string id)
         {
+            ViewBag.isButton = true;
             if (id == null)
             {
                 return NotFound();
@@ -49,6 +51,7 @@ namespace MVCManukauTech.Controllers
         // GET: Products/Create
         public IActionResult Create()
         {
+            ViewBag.isButton = true;
             ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId");
             return View();
         }
@@ -73,6 +76,7 @@ namespace MVCManukauTech.Controllers
         // GET: Products/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
+            ViewBag.isButton = true;
             if (id == null)
             {
                 return NotFound();
@@ -126,6 +130,7 @@ namespace MVCManukauTech.Controllers
         // GET: Products/Delete/5
         public async Task<IActionResult> Delete(string id)
         {
+            ViewBag.isButton = true;
             if (id == null)
             {
                 return NotFound();

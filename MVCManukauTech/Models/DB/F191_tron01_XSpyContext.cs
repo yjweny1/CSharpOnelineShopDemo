@@ -16,6 +16,7 @@ namespace MVCManukauTech.Models.DB
         {
         }
 
+        public virtual DbSet<Page> Page { get; set; }
         public virtual DbSet<AspNetRoleClaims> AspNetRoleClaims { get; set; }
         public virtual DbSet<AspNetRoles> AspNetRoles { get; set; }
         public virtual DbSet<AspNetUserClaims> AspNetUserClaims { get; set; }
@@ -33,6 +34,7 @@ namespace MVCManukauTech.Models.DB
         public virtual DbSet<CatalogViewModel> CatalogViewModel { get; set; }
         public virtual DbSet<OrderDetailsQueryForCart> OrderDetailsQueryForCart { get; set; }
         public virtual DbSet<GrandTotalViewModel> GrandTotalViewModel { get; set; }
+        public virtual DbSet<UserViewModel> UserViewModel { get; set; }
 
         //2019-03-19 removed temp method OnConfiguring - replaced with service in Startup.cs
 
